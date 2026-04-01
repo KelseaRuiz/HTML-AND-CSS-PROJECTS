@@ -1,0 +1,12 @@
+ol {
+list-style-type: upper-alpha;
+font-weight:bold;
+border:1px solid black;
+padding:25px;
+text-shadow: -6px 2px 6px blue}
+ul {
+list-style-type:square;
+font-weight:bold;
+border:1px solid black;
+padding:25px;
+text-shadow: -6px 2px 6px red}
