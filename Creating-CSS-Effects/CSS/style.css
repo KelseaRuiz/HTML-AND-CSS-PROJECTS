@@ -1,7 +1,7 @@
 /*Imports "Geo" font from fonts.google.com*/
 @import url("https://fonts.googleapis.com/css2?family=Geo:ital@0;1&display=swap");
 
-/*Creating font from Google fonts*/
+/*Adding font to body of text*/
 body {
   font-family: "Geo", sans-serif;
   font-style: italic;
