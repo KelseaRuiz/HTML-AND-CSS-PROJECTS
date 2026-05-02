@@ -1,16 +1,22 @@
 table {
-	border: 1px solid silver;
+  border: 1px solid silver;
 }
 td:hover {
-	background-color: bisque;
-	color: black;
+  background-color: bisque;
+  color: black;
 }
-tr,th {
-	background-color: DarkSlateGrey;
-	color: white;
+tr,
+th {
+  background-color: DarkSlateGrey;
+  color: white;
 }
-tr,td {
-	background-color: darkkhaki;
-	color: black;
+tr,
+td {
+  background-color: darkkhaki;
+  color: black;
 }
 
+th,
+td {
+  text-align: center;
+}
