@@ -1,26 +1,11 @@
+/*Imports "Geo" font from fonts.google.com*/
 @import url("https://fonts.googleapis.com/css2?family=Geo:ital@0;1&display=swap");
+
 /*Creating font from Google fonts*/
-@font-face {
-  font-family: "Geo";
-  font-style: normal;
-  font-weight: 400;
-  src: url("https://fonts.gstatic.com/s/geo/v16/H4ckpXF-6DIXmX3u9mE.woff2")
-    format("woff2");
-}
-
-/* Defining the Italic version */
-@font-face {
-  font-family: "Geo";
-  font-style: italic;
-  font-weight: 400;
-  src: url("https://fonts.gstatic.com/s/geo/v16/H4capXF-6DIXmX3V9mM_Hw.woff2")
-    format("woff2");
-}
-
-.geo-regular-italic {
+body {
   font-family: "Geo", sans-serif;
-  font-weight: 400;
   font-style: italic;
+  font-weight: 400;
 }
 
 /*NAVBAR*/
