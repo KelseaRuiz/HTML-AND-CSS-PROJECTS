@@ -1,0 +1,83 @@
+/*Imported "IbarraRealNova" front from fonts.google.com*/
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&display=swap');
+
+body{
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 30px;
+    background-color: rgb(243, 233, 222);
+    color: rgb(60, 28, 28);
+    text-align: center;
+}
+/*Nav-bar*/
+nav ul {
+    list-style-type: disc; /* Ensures the bullet points stay visible */
+    list-style-position: inside;/* Keeps bullets inside the box border */
+    margin: 20px auto;/* Centers the box on the page */
+    padding: 20px;   
+    width: 500px; /* Adjust this width to fit your text */
+    border: 2px solid rgb(60, 28, 28); 
+    background-color: rgba(60, 28, 28, 0.05); /* Very light tint for contrast */
+    border-radius: 8px; /* Rounds corners of the box */
+    text-align: left; /* Keeps text aligned left so bullets look right */
+}
+
+/*IMAGES*/
+img {
+    width: 100%; 
+    max-width: 600px; 
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+/*Input Tags*/
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 33%;
+    margin: 10px 1%;
+    border: 2px solid rgb(60, 28, 28) !important; 
+    border-radius: 8px;
+    padding: 12px;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'Ibarra Real Nova',serif;/*Font from fonts.google.com*/
+    color: rgb(60, 28, 28);
+    font-size: large; 
+}
+
+/* Specific styling for the Submit button*/
+input[type="submit"] {
+    width: auto;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    color: rgb(60, 28, 28);
+    background-color: whitesmoke;
+    font-family: 'Ibarra Real Nova',serif;/*Font from fonts.google.com*/
+    font-weight: bold;
+}
+
+/*Footer*/
+footer {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 25px;
+    background-color: rgb(243, 233, 222);
+    color: rgb(60, 28, 28);
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center;     /* Centers items vertically */
+    gap: 100px;  /* Adds a gap between the name and phone number */
+    padding: 30px 0; 
+    width: 100%;
+}
+
+footer td {
+    padding: 0 50px; 
+}
+
+footer table {
+    margin: 0 auto;/*Centers table*/
+}
