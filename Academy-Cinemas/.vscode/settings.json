@@ -1,0 +1,5 @@
+{
+  "html.autoClosingTags": true,
+  "prettier.bracketSameLine": true,
+  "eslint.format.enable": true
+}

@@ -1,0 +1,4 @@
+{
+    "prettier.bracketSameLine": true,
+    "js/ts.autoClosingTags.enabled": false
+}
