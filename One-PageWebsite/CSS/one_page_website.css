@@ -13,9 +13,9 @@ nav ul {
     list-style-type: disc; /* Ensures the bullet points stay visible */
     list-style-position: inside;/* Keeps bullets inside the box border */
     margin: 20px auto;/* Centers the box on the page */
-    padding: 20px;   
+    padding: 20px;
     width: 500px; /* Adjust this width to fit your text */
-    border: 2px solid rgb(60, 28, 28); 
+    border: 2px solid rgb(60, 28, 28);
     background-color: rgba(60, 28, 28, 0.05); /* Very light tint for contrast */
     border-radius: 8px; /* Rounds corners of the box */
     text-align: left; /* Keeps text aligned left so bullets look right */
@@ -23,9 +23,9 @@ nav ul {
 
 /*IMAGES*/
 img {
-    width: 100%; 
-    max-width: 600px; 
-    height: auto; 
+    width: 100%;
+    max-width: 600px;
+    height: auto;
     display: block;
     margin: 0 auto;
     border-radius: 8px;
@@ -38,14 +38,14 @@ input[type="tel"],
 textarea {
     width: 33%;
     margin: 10px 1%;
-    border: 2px solid rgb(60, 28, 28) !important; 
+    border: 2px solid rgb(60, 28, 28) !important;
     border-radius: 8px;
     padding: 12px;
     box-sizing: border-box;
     background-color: white;
     font-family: 'Ibarra Real Nova',serif;/*Font from fonts.google.com*/
     color: rgb(60, 28, 28);
-    font-size: large; 
+    font-size: large;
 }
 
 /* Specific styling for the Submit button*/
@@ -66,18 +66,30 @@ footer {
     font-size: 25px;
     background-color: rgb(243, 233, 222);
     color: rgb(60, 28, 28);
-    display: flex;
-    justify-content: center; /* Centers items horizontally */
-    align-items: center;     /* Centers items vertically */
-    gap: 100px;  /* Adds a gap between the name and phone number */
-    padding: 30px 0; 
+    padding: 30px 0;
     width: 100%;
 }
-
-footer td {
-    padding: 0 50px; 
+footer .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-footer table {
-    margin: 0 auto;/*Centers table*/
+footer .col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1; /*Gives each of the columns equal width*/
+}
+
+footer img.img-fluid {
+    max-width: 150px; /*Limits large logo*/
+    height: auto;
+    position: sticky;
+    bottom: 0;
+}
+
+.footer-text {
+    margin: 0;
+    white-space: nowrap; /* Targets the text specifically to keep it from breaking into awkward lines */
 }
